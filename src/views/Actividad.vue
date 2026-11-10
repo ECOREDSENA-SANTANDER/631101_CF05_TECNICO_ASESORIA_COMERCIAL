@@ -11,7 +11,6 @@
 
 <script>
 import ActividadController from '@ecored-sena/boulder-kit/plugin/components/actividad/ActividadController.vue'
-
 export default {
   name: 'ActividadDidactica',
   components: {
@@ -19,10 +18,10 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Aplicando estrategias de venta, comunicación y <em>merchandising.</em>',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> Identificar la importancia de las fases de la venta, el rol de la comunicación y el impacto del <em>merchandising</em> en el fortalecimiento de la relación con el cliente.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
@@ -30,477 +29,689 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            'Una empresa detecta que un cliente duda porque no comprende cómo el producto resolverá su necesidad. ¿Qué acción comercial resulta más adecuada?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'Repetir únicamente el precio del producto.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
+                'Explicar los beneficios vinculándolos con la necesidad identificada.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
+              texto: 'Finalizar la conversación para evitar objeciones.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+              texto:
+                'Presentar todos los productos sin establecer diferencias.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            'Se evidencia una adecuada apropiación de los contenidos relacionados con ventas, comunicación y <em>merchandising</em>.',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
+            'Se recomienda fortalecer la apropiación de los contenidos relacionados con ventas, comunicación y <em>merchandising</em>.',
         },
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            '¿Qué acción permite identificar mejor las necesidades del cliente durante una venta?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
+              texto:
+                'Formular preguntas pertinentes y realizar escucha activa.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: '<em>Auto</em>',
+              texto: 'Presentar la oferta sin permitir intervenciones.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Text</em>',
-              esCorrecta: true,
+              texto: 'Centrar la conversación exclusivamente en descuentos.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'Evitar solicitar información sobre sus expectativas.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia una adecuada apropiación de los contenidos relacionados con ventas, comunicación y <em>merchandising</em>.',
+          mensaje_incorrecto:
+            'Se recomienda fortalecer la apropiación de los contenidos relacionados con ventas, comunicación y <em>merchandising</em>.',
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto:
+            'Durante la presentación de una oferta comercial, ¿qué práctica fortalece la confianza del cliente?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para borrar conexiones.',
+              texto: 'Utilizar información ambigua para generar expectativa.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'Prometer beneficios que el producto no ofrece.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
-              esCorrecta: false,
+              texto:
+                'Comunicar características y beneficios de manera clara y verificable.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
-              esCorrecta: true,
+              texto:
+                'Evitar responder preguntas sobre las condiciones de compra.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia una adecuada apropiación de los contenidos relacionados con ventas, comunicación y <em>merchandising</em>.',
+          mensaje_incorrecto:
+            'Se recomienda fortalecer la apropiación de los contenidos relacionados con ventas, comunicación y <em>merchandising</em>.',
         },
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            '¿Cuál es la finalidad de argumentar los beneficios de un producto durante la venta?',
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
-              esCorrecta: false,
+              texto:
+                'Relacionar la oferta con las necesidades y expectativas del cliente.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: '<em>Layer</em>',
+              texto:
+                'Sustituir el proceso de comunicación con información técnica.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Board</em>',
-              esCorrecta: true,
+              texto: 'Evitar que el cliente compare diferentes alternativas.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'Incrementar el número de productos exhibidos.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia una adecuada apropiación de los contenidos relacionados con ventas, comunicación y <em>merchandising</em>.',
+          mensaje_incorrecto:
+            'Se recomienda fortalecer la apropiación de los contenidos relacionados con ventas, comunicación y <em>merchandising</em>.',
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto:
+            'Ante una objeción del cliente, ¿cuál es la actuación más apropiada del vendedor?',
+          imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
-              esCorrecta: true,
+                'Interrumpir al cliente para defender inmediatamente la oferta.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
+              texto: 'Ignorar la inquietud y continuar con el cierre.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
-              esCorrecta: false,
+              texto:
+                'Escuchar la objeción, aclararla y responder con argumentos pertinentes.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'Reducir siempre el precio como primera alternativa.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia una adecuada apropiación de los contenidos relacionados con ventas, comunicación y <em>merchandising</em>.',
+          mensaje_incorrecto:
+            'Se recomienda fortalecer la apropiación de los contenidos relacionados con ventas, comunicación y <em>merchandising</em>.',
         },
         {
           id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto: '¿Qué caracteriza un cierre de venta orientado al cliente?',
+          imagen: '@/assets/actividad/imagen6.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Borrar componentes.',
+              texto: 'Presionar para obtener una decisión inmediata.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
+              texto:
+                'Confirmar que la alternativa seleccionada responde a la necesidad identificada.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
+              texto: 'Evitar aclarar las condiciones finales de la compra.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Seleccionar y editar capas.',
+              texto: 'Limitar la participación del cliente en la decisión.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia una adecuada apropiación de los contenidos relacionados con ventas, comunicación y <em>merchandising</em>.',
+          mensaje_incorrecto:
+            'Se recomienda fortalecer la apropiación de los contenidos relacionados con ventas, comunicación y <em>merchandising</em>.',
         },
         {
           id: 7,
-          texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto: '¿Qué propósito tiene el seguimiento posterior a la venta?',
+          imagen: '@/assets/actividad/imagen7.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
+              texto: 'Finalizar todo contacto con el cliente.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
+              texto:
+                'Verificar la satisfacción y fortalecer la relación comercial.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
+              texto: 'Reemplazar las acciones realizadas durante la venta.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
+              texto: 'Aumentar automáticamente el precio de futuras compras.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia una adecuada apropiación de los contenidos relacionados con ventas, comunicación y <em>merchandising</em>.',
+          mensaje_incorrecto:
+            'Se recomienda fortalecer la apropiación de los contenidos relacionados con ventas, comunicación y <em>merchandising</em>.',
         },
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: '@/assets/actividad/imagen2.png',
+            'En comunicación comercial, ¿qué función cumple la escucha activa?',
+          imagen: '@/assets/actividad/imagen8.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto:
+                'Permitir comprender necesidades, inquietudes y expectativas del cliente.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Reducir el tiempo destinado a conocer al cliente.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Evitar preguntas durante la conversación.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Sustituir la argumentación de la oferta.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia una adecuada apropiación de los contenidos relacionados con ventas, comunicación y <em>merchandising</em>.',
+          mensaje_incorrecto:
+            'Se recomienda fortalecer la apropiación de los contenidos relacionados con ventas, comunicación y <em>merchandising</em>.',
         },
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Qué elemento favorece la efectividad de un mensaje comercial?',
+          imagen: '@/assets/actividad/imagen9.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Emplear el mismo mensaje sin considerar el público.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Utilizar términos complejos, aunque no sean necesarios.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Adaptar el contenido al perfil y las necesidades del receptor.',
               esCorrecta: true,
             },
+            {
+              id: 'd',
+              texto: 'Incluir la mayor cantidad posible de información.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia una adecuada apropiación de los contenidos relacionados con ventas, comunicación y <em>merchandising</em>.',
+          mensaje_incorrecto:
+            'Se recomienda fortalecer la apropiación de los contenidos relacionados con ventas, comunicación y <em>merchandising</em>.',
         },
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Cuál es una práctica adecuada en la comunicación no verbal durante la atención comercial?',
+          imagen: '@/assets/actividad/imagen10.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Mantener una actitud coherente con el mensaje transmitido.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Evitar cualquier expresión que acompañe el mensaje.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Realizar otras actividades mientras el cliente habla.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Utilizar gestos que contradigan la información ofrecida.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia una adecuada apropiación de los contenidos relacionados con ventas, comunicación y <em>merchandising</em>.',
+          mensaje_incorrecto:
+            'Se recomienda fortalecer la apropiación de los contenidos relacionados con ventas, comunicación y <em>merchandising</em>.',
         },
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Qué ventaja ofrece el uso integrado de canales digitales en la comunicación comercial?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto:
+                'Permite mantener interacción y ofrecer información oportuna al cliente.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'Elimina la necesidad de definir mensajes comerciales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Garantiza por sí solo el cierre de todas las ventas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Impide adaptar la comunicación a diferentes públicos.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia una adecuada apropiación de los contenidos relacionados con ventas, comunicación y <em>merchandising</em>.',
+          mensaje_incorrecto:
+            'Se recomienda fortalecer la apropiación de los contenidos relacionados con ventas, comunicación y <em>merchandising</em>.',
         },
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+            '¿Qué criterio debe orientar la selección de un canal de comunicación comercial?',
+          imagen: '@/assets/actividad/imagen2.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'La preferencia personal del vendedor.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Las características del público y el propósito del mensaje.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'La cantidad de productos almacenados.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'El costo de producción de la empresa.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia una adecuada apropiación de los contenidos relacionados con ventas, comunicación y <em>merchandising</em>.',
+          mensaje_incorrecto:
+            'Se recomienda fortalecer la apropiación de los contenidos relacionados con ventas, comunicación y <em>merchandising</em>.',
+        },
+        {
+          id: 13,
+          texto:
+            '¿Qué busca el <em>merchandising</em> mediante la ubicación estratégica de los productos?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Facilitar su identificación y estimular el interés de compra.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Ocultar los productos con menor rotación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Sustituir la atención y el servicio al cliente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Reducir el espacio destinado a la exhibición.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia una adecuada apropiación de los contenidos relacionados con ventas, comunicación y <em>merchandising</em>.',
+          mensaje_incorrecto:
+            'Se recomienda fortalecer la apropiación de los contenidos relacionados con ventas, comunicación y <em>merchandising</em>.',
         },
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+            '¿Qué práctica contribuye a una exhibición comercial efectiva?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Mantener productos sin clasificación ni criterio de ubicación.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Organizar los productos considerando visibilidad, acceso y coherencia.',
               esCorrecta: true,
             },
+            {
+              id: 'c',
+              texto: 'Ubicar toda la mercancía en un único punto.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Evitar actualizar la presentación del espacio comercial.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia una adecuada apropiación de los contenidos relacionados con ventas, comunicación y <em>merchandising</em>.',
+          mensaje_incorrecto:
+            'Se recomienda fortalecer la apropiación de los contenidos relacionados con ventas, comunicación y <em>merchandising</em>.',
         },
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+            '¿Por qué es importante mantener orden y disponibilidad en el punto de venta?',
+          imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Porque facilita la experiencia de compra y el acceso a los productos.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Porque elimina la necesidad de comunicación comercial.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Porque reemplaza la gestión de inventarios.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Porque garantiza que todos los clientes compren.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia una adecuada apropiación de los contenidos relacionados con ventas, comunicación y <em>merchandising</em>.',
+          mensaje_incorrecto:
+            'Se recomienda fortalecer la apropiación de los contenidos relacionados con ventas, comunicación y <em>merchandising</em>.',
+        },
+        {
+          id: 16,
+          texto:
+            'Una empresa desea destacar un producto nuevo en el punto de venta. ¿Qué acción corresponde al <em>merchandising</em>?',
+          imagen: '@/assets/actividad/imagen6.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Ubicarlo estratégicamente y apoyar su presentación con información clara.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Modificar únicamente los registros contables.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Reducir la comunicación sobre sus beneficios.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Almacenarlo fuera del alcance del consumidor.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia una adecuada apropiación de los contenidos relacionados con ventas, comunicación y <em>merchandising</em>.',
+          mensaje_incorrecto:
+            'Se recomienda fortalecer la apropiación de los contenidos relacionados con ventas, comunicación y <em>merchandising</em>.',
+        },
+        {
+          id: 17,
+          texto:
+            '¿Qué relación existe entre <em>merchandising</em> y comportamiento del consumidor?',
+          imagen: '@/assets/actividad/imagen7.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Puede facilitar la elección mediante una presentación organizada y atractiva.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Determina obligatoriamente la decisión del consumidor.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Elimina las preferencias individuales del cliente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Solo interviene después de realizar la compra.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia una adecuada apropiación de los contenidos relacionados con ventas, comunicación y <em>merchandising</em>.',
+          mensaje_incorrecto:
+            'Se recomienda fortalecer la apropiación de los contenidos relacionados con ventas, comunicación y <em>merchandising</em>.',
+        },
+        {
+          id: 18,
+          texto:
+            '¿Qué resultado puede generar la coherencia entre comunicación comercial y exhibición?',
+          imagen: '@/assets/actividad/imagen8.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Una experiencia de compra más clara y consistente.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Una disminución necesaria de la variedad ofrecida.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'La eliminación del proceso de venta.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'La sustitución de la atención al cliente.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia una adecuada apropiación de los contenidos relacionados con ventas, comunicación y <em>merchandising</em>.',
+          mensaje_incorrecto:
+            'Se recomienda fortalecer la apropiación de los contenidos relacionados con ventas, comunicación y <em>merchandising</em>.',
+        },
+        {
+          id: 19,
+          texto:
+            '¿Qué indicador aporta información sobre la efectividad de una acción de <em>merchandising</em>?',
+          imagen: '@/assets/actividad/imagen9.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'La rotación de los productos ubicados en la exhibición.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'El número de cargos administrativos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'La antigüedad de los equipos de oficina.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'La cantidad de documentos internos emitidos.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia una adecuada apropiación de los contenidos relacionados con ventas, comunicación y <em>merchandising</em>.',
+          mensaje_incorrecto:
+            'Se recomienda fortalecer la apropiación de los contenidos relacionados con ventas, comunicación y <em>merchandising</em>.',
+        },
+        {
+          id: 20,
+          texto:
+            '¿Qué práctica integra adecuadamente ventas, comunicación y <em>merchandising</em>?',
+          imagen: '@/assets/actividad/imagen10.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Conocer al cliente, comunicar una propuesta de valor y facilitar la elección en el punto de venta.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Concentrar la estrategia únicamente en reducir precios.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Separar la comunicación de las necesidades del cliente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Exhibir productos sin considerar el proceso de compra.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia una adecuada apropiación de los contenidos relacionados con ventas, comunicación y <em>merchandising</em>.',
+          mensaje_incorrecto:
+            'Se recomienda fortalecer la apropiación de los contenidos relacionados con ventas, comunicación y <em>merchandising</em>.',
         },
       ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_aprobado:
+        'Ha superado la actividad y demuestra una adecuada apropiación de los contenidos relacionados con ventas, comunicación y <em>merchandising</em>.',
       mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
-    },
-    parrafo: {
-      tema: 'Comprendiendo el diseño de presupuestos y estrategias de ahorro',
-      titulo: 'Completar frases',
-      introduccion:
-        '<b> Objetivo:</b> identificar conceptos clave relacionados con el presupuesto personal, la cultura del ahorro y la planificación financiera.',
-      instruccion:
-        'Complete correctamente los enunciados con la palabra que falta según los contenidos estudiados en el componente formativo.',
-      imagen: '@/assets/actividad/imagen1.png',
-      barajarPreguntas: true,
-      textos: [
-        {
-          id: 1,
-          texto:
-            'El [respuesta] personal es una herramienta que permite proyectar ingresos y egresos para mantener la estabilidad económica.',
-          respuesta: 'presupuesto',
-        },
-        {
-          id: 2,
-          texto:
-            'La constancia en el cumplimiento del presupuesto refleja un alto nivel de [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 3,
-          texto:
-            'Ahorrar no es lo que sobra, sino lo que se [respuesta] guardar antes de gastar.',
-          respuesta: 'planifica',
-        },
-        {
-          id: 4,
-          texto:
-            'Un gasto innecesario que puede eliminarse sin afectar la calidad de vida básica se denomina gasto [respuesta].',
-          respuesta: 'discrecional',
-        },
-        {
-          id: 5,
-          texto:
-            'La cultura del ahorro promueve el uso responsable de los [respuesta] disponibles.',
-          respuesta: 'recursos',
-        },
-        {
-          id: 6,
-          texto:
-            'El estado de [respuesta] personales permite analizar la relación entre ingresos y egresos en un periodo determinado.',
-          respuesta: 'resultados',
-        },
-        {
-          id: 7,
-          texto:
-            'Cuando los ingresos son mayores que los egresos se generan una [respuesta] que puede destinarse al ahorro.',
-          respuesta: 'utilidad',
-        },
-        {
-          id: 8,
-          texto:
-            'Uno de los beneficios de ejecutar un presupuesto es la reducción del [respuesta] financiero.',
-          respuesta: 'estrés',
-        },
-        {
-          id: 9,
-          texto:
-            'Evitar gastos impulsivos y mantener límites presupuestales refleja [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 10,
-          texto:
-            'Contar con un fondo de [respuesta] permite enfrentar gastos inesperados sin afectar el presupuesto.',
-          respuesta: 'emergencia',
-        },
-      ],
+        'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
   }),
 }
