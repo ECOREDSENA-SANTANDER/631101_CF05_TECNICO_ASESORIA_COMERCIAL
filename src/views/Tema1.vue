@@ -241,32 +241,263 @@
             .col-lg-10
               p.mb-0 Por ejemplo, una empresa de electrodomésticos puede desarrollar una estrategia dirigida a clientes que buscan equipos de bajo consumo energético, ofreciendo asesoría especializada, alternativas de financiación y acompañamiento posventa.
         p.mb-0 Amplíe sus conocimientos sobre estrategias de ventas. Le invitamos a consultar el video del Ecosistema de Recursos Educativos Digitales SENA, para fortalecer la comprensión de las técnicas y estrategias comerciales que contribuyen a mejorar la atención al cliente y el desarrollo del proceso de venta.
+    
+    .tit-ico.mb-5(data-aos="fade-right")
+      img.tit-ico__img(src="@/assets/curso/tema1/20.svg", alt="")
+      h4.mb-0 Estrategia de ventas
 
+    .row.justify-content-center.align-items-center.mb-5           
+      .col-lg-12
+        figure
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/mwk2MnDXtPI?si=cj7Oive9lM9E04k9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video. Estrategia de ventas
 
+    .tit-doble.mb-5(data-aos="fade-right")
+      img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/ico.svg')")
+      h3 Técnicas de venta
 
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+      .col-lg-3
+        img(src='@/assets/curso/tema1/21.png')
+      .col-lg-9
+        p.mb-3 Las técnicas de venta comprenden un conjunto de métodos y procedimientos que orientan la interacción entre el asesor comercial y el cliente, facilitando la identificación de necesidades, la presentación de soluciones y la toma de decisiones de compra. 
+        p.mb-4 Entre las técnicas más utilizadas se encuentra el #[b método AIDA,] cuyo nombre corresponde a las etapas de Atención, Interés, Deseo y Acción. Este modelo permite estructurar la comunicación comercial de manera progresiva, desde el contacto inicial con el cliente hasta la promoción de una decisión de compra informada.
+        .titulo-sexto.mb-4
+          h5 Tabla 4.
+          | Método AIDA
+        .tabla-a.tabla-peq.tab-peq4.mb-0
+          table
+            thead
+              tr
+                th Etapa
+                th Propósito
+                th Aplicación
+            tbody
+              tr
+                td Atención
+                td Captar el interés inicial del cliente.
+                td Presentar una característica relevante del producto.
+              tr
+                td Interés
+                td Generar interés por la solución ofrecida.
+                td Explicar cómo el producto responde a una necesidad.
+              tr
+                td Deseo
+                td Fortalecer la intención de compra.
+                td Relacionar los beneficios con las expectativas del cliente.
+              tr
+                td Acción
+                td Facilitar la decisión de compra.
+                td Explicar las condiciones comerciales y orientar la formalización del pedido.
 
+    p.mb-5 Otra técnica utilizada en los procesos comerciales es el #[b método SPIN], cuyo nombre corresponde a cuatro tipos de preguntas: Situación, Problema, Implicación y Necesidad - beneficio. Este método se fundamenta en la formulación de preguntas estratégicas que permiten conocer la situación actual del cliente, identificar sus dificultades, comprender las consecuencias de estas y establecer los beneficios de una posible solución. Su aplicación facilita una asesoría comercial personalizada y orientada a las necesidades reales del cliente.
 
-
-
-
-
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
+      .col-lg-12
+        .titulo-sexto.mb-4
+          h5 Tabla 5.
+          | Método SPIN
+        .row.justify-content-center.align-items-start.mb-0
+          .col-lg-9
+            .tabla-a.tabla-peq.tab-peq5.mb-3
+              table
+                thead
+                  tr
+                    th Tipo de pregunta
+                    th Finalidad
+                    th Ejemplo
+                tbody
+                  tr
+                    td Situación
+                    td Conocer las condiciones actuales del cliente.
+                    td ¿Qué sistema utiliza actualmente para gestionar sus ventas?
+                  tr
+                    td Problema
+                    td Identificar dificultades o necesidades.
+                    td ¿Qué inconvenientes presenta al registrar los pedidos?
+                  tr
+                    td Implicación
+                    td Comprender las consecuencias del problema.
+                    td ¿Cómo afectan esos inconvenientes los tiempos de atención?
+                  tr
+                    td Necesidad - beneficio
+                    td Identificar el valor de resolver el problema.
+                    td ¿Qué beneficios obtendría al contar con un sistema que reduzca los errores?
+            p.mb-0 Estas técnicas pueden adaptarse a diferentes contextos comerciales y deben aplicarse respetando la autonomía del cliente y proporcionando información clara y verificable.
+          .col-lg-3
+            img(src='@/assets/curso/tema1/22.png')
 
 
     separador
     #t_1_5.titulo-segundo.mb-5
       h2 1.5 Venta consultiva
 
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-5
+        img(src='@/assets/curso/tema1/23.png')
+      .col-lg-7
+        .row.justify-content-center.mb-3
+          .col-lg-2
+            img.img-t(src='@/assets/curso/tema1/24.svg')
+          .col-lg-10.ps-lg-0
+            p.mb-0 La venta consultiva es un enfoque comercial centrado en comprender las necesidades, expectativas y características del cliente para recomendar soluciones adecuadas, en lugar de priorizar exclusivamente el cierre inmediato de la transacción. Su propósito es generar valor mediante una atención personalizada que contribuya a la satisfacción del cliente y al establecimiento de relaciones comerciales duraderas.
+        p.mb-0 En este modelo, el asesor comercial desempeña una función de orientación y acompañamiento durante el proceso de compra. Para ello, requiere conocimiento de los productos o servicios, capacidad de análisis, comunicación asertiva, empatía y habilidades para construir relaciones de confianza.
+
+    .tit-doble.mb-5(data-aos="fade-right")
+      img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/ico.svg')")
+      h3 Características de la venta consultiva
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-7
+        .bg6.p-4
+          ul.lista-ul.mb-0
+            li.d-flex.mb-2
+              i.fas.fa-user
+              p.mb-0 Orientación al cliente: prioriza la identificación de necesidades y expectativas antes de presentar una oferta comercial.
+            li.d-flex.mb-2
+              i.fas.fa-user
+              p.mb-0 Comunicación efectiva: utiliza preguntas abiertas, lenguaje claro y estrategias de comunicación asertiva para comprender los requerimientos del cliente.
+            li.d-flex.mb-2
+              i.fas.fa-user
+              p.mb-0 Asesoramiento personalizado: propone alternativas considerando el presupuesto, las preferencias y las condiciones particulares del comprador.
+            li.d-flex.mb-2
+              i.fas.fa-user
+              p.mb-0 Generación de confianza: proporciona información transparente sobre las características, beneficios y limitaciones de los productos o servicios.
+            li.d-flex.mb-0
+              i.fas.fa-user
+              p.mb-0 Relaciones a largo plazo: promueve la satisfacción, fidelización y continuidad de la relación comercial.
+      .col-lg-5
+        img(src='@/assets/curso/tema1/25.svg')
 
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .tit-doble.mb-5(data-aos="fade-right")
+      img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/ico.svg')")
+      h3 Importancia de la venta consultiva
+
+    .row.justify-content-center.align-items-center.mb-0
+      .col-lg-5
+        img(src='@/assets/curso/tema1/26.png')
+      .col-lg-7
+        .row.justify-content-center.mb-3
+          .col-lg-2
+            img.img-t(src='@/assets/curso/tema1/24.svg')
+          .col-lg-10.ps-lg-0
+            p.mb-0 La venta consultiva permite transformar la interacción comercial en un proceso de asesoramiento fundamentado en la comunicación, el conocimiento del producto y la comprensión de las necesidades del comprador. Su aplicación contribuye a reducir decisiones de compra inadecuadas, fortalecer la confianza, mejorar la experiencia del cliente y generar oportunidades de fidelización.
+        p.mb-0 De esta manera, el asesor comercial no se limita a ofrecer productos o servicios, sino que participa activamente en la construcción de soluciones que aportan valor tanto al cliente como a la organización.
 
 
     separador
     #t_1_6.titulo-segundo.mb-5
       h2 1.6 Clínicas de venta
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-5.mb-lg-0.mb-0.d-none.d-lg-block.pe-lg-0(data-aos="fade-right")
+        img(src='@/assets/curso/tema1/27.png')
+      .col-lg-7.ps-lg-0(data-aos="fade-left")
+        .bg7.mb-0.p-4.cen
+          img.img-t.mb-4.mx-lg-2(src='@/assets/curso/tema1/28.svg')
+          p.mb-4.mx-lg-2 Las clínicas de venta son actividades prácticas de formación que permiten desarrollar y fortalecer las competencias comerciales mediante la simulación de situaciones reales relacionadas con la atención al cliente, la presentación de productos, la negociación y el cierre de ventas. Su propósito es facilitar la aplicación de conocimientos, técnicas y habilidades de comunicación en escenarios que reproducen las condiciones habituales de una interacción comercial.
+          p.mb-0.mx-lg-2 Estas actividades pueden desarrollarse mediante juegos de roles, estudios de caso, simulaciones comerciales y ejercicios de aplicación, en los cuales los aprendices asumen diferentes funciones, principalmente las de asesor comercial y cliente. De esta manera, se promueve el desarrollo de habilidades como la comunicación asertiva, la empatía, la argumentación comercial, la resolución de problemas y la toma de decisiones.
+
+    .tit-ico.mb-4(data-aos="fade-right")
+      img.tit-ico__img(src="@/assets/curso/tema1/20.svg", alt="")
+      h4.mb-0 Características de las clínicas de venta
+
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+      .col-lg-6.d-none.d-lg-block
+        img(src='@/assets/curso/tema1/29.png')
+      .col-lg-6
+        LineaTiempoD.color-secundario.activo
+          .row.justify-content-center.align-items-center.mb-0(numero="1" titulo="Aprendizaje práctico")
+            .col-lg-12
+              p.mb-0 permiten aplicar conocimientos y técnicas comerciales en situaciones simuladas.
+          .row.justify-content-center.align-items-center.mb-0(numero="2" titulo="Participación")
+            .col-lg-12
+              p.mb-0 Requieren la intervención de los participantes mediante la asignación de roles y responsabilidades.
+          .row.justify-content-center.align-items-center.mb-0(numero="3" titulo="Situaciones contextualizadas")
+            .col-lg-12
+              p.mb-0 Plantean casos relacionados con necesidades, inquietudes y comportamientos habituales de los clientes.
+          .row.justify-content-center.align-items-center.mb-0(numero="4" titulo="Evaluación de competencias")
+            .col-lg-12
+              p.mb-0 Facilitan la valoración del desempeño comercial mediante criterios previamente establecidos.
+          .row.justify-content-center.align-items-center.mb-0(numero="5" titulo="Realimentación formativa")
+            .col-lg-12
+              p.mb-0 Permiten identificar fortalezas, oportunidades de mejora y acciones para perfeccionar las habilidades comerciales.
+
+    .tit-doble.mb-5(data-aos="fade-right")
+      img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/ico.svg')")
+      h3 Etapas para desarrollar una clínica de venta
+    
+    p.mb-4 La organización de una clínica de venta requiere una secuencia de actividades que permita preparar, ejecutar y evaluar el ejercicio práctico.
+
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
+      .col-lg-12
+        .titulo-sexto.mb-4
+          h5 Tabla 6.
+          | Etapas para el desarrollo de una clínica de venta
+        .row.justify-content-center.align-items-start.mb-0
+          .col-lg-9
+            .tabla-a.tabla-peq.tab-peq5.mb-3
+              table
+                thead
+                  tr
+                    th Tipo de pregunta
+                    th Finalidad
+                    th Ejemplo
+                tbody
+                  tr
+                    td Situación
+                    td Conocer las condiciones actuales del cliente.
+                    td ¿Qué sistema utiliza actualmente para gestionar sus ventas?
+                  tr
+                    td Problema
+                    td Identificar dificultades o necesidades.
+                    td ¿Qué inconvenientes presenta al registrar los pedidos?
+                  tr
+                    td Implicación
+                    td Comprender las consecuencias del problema.
+                    td ¿Cómo afectan esos inconvenientes los tiempos de atención?
+                  tr
+                    td Necesidad - beneficio
+                    td Identificar el valor de resolver el problema.
+                    td ¿Qué beneficios obtendría al contar con un sistema que reduzca los errores?
+            p.mb-0 Estas técnicas pueden adaptarse a diferentes contextos comerciales y deben aplicarse respetando la autonomía del cliente y proporcionando información clara y verificable.
+          .col-lg-3
+            img(src='@/assets/curso/tema1/30.png')
+
+
 
 
 

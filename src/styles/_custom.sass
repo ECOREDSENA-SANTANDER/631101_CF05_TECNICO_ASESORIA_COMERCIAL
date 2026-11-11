@@ -234,6 +234,65 @@ figcaption
   background-color: #D6D1DF
   border-radius: 18px
 
+.tit-ico
+  --ico: 2rem
+  display: flex
+  align-items: center
+  gap: 1rem
+  &__img
+    flex: 0 0 auto
+    width: var(--ico)
+    height: auto
+
+.lista-ul
+  list-style: none
+  padding: 0
+  li
+    align-items: flex-start
+    gap: 0.2em
+  .fa-user
+    color: #005266
+    flex: 0 0 1.2em
+    width: 1.2em
+    height: 1.2em
+    margin-top: 0em
+  p
+    flex: 1
+    min-width: 0
+
+.bg6
+  background-color: #CCDCE0
+
+.bg7
+  background: url('../assets/curso/tema1/fd2.png') center / cover no-repeat
+  @media (min-width: 992px)
+    min-height: var(--alto, 482.85px)
+
+.tarjeta--gris
+  background-color: #AEA3BE
+.linea-tiempo-d
+  .tarjeta
+    border-radius: 5px
+  &.color-secundario
+    .linea-tiempo-d__item--selected .linea-tiempo-d__item__content
+      background-color: #FBF7CD
+    &.activo
+      .linea-tiempo-d__item__number
+        background-color: #AEA3BE
+      .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+        background-color: #FFD633
+        color: black !important
+  @media (max-width: 767px)
+    .tarjeta
+      padding: 0.5rem
+  @media (min-width: 768px) and (max-width: 1439px)
+    &.color-acento-boton .linea-tiempo-d__item--selected .linea-tiempo-d__item__content
+      padding: 0.5rem
+
+
+
+
+
 
 
 
@@ -293,3 +352,25 @@ figcaption
       width: 20%
     th:nth-child(2)
       width: 80%
+  &.tab-peq4
+    th
+      padding: 10px 12px
+    td
+      padding: 9px 12px
+    th:nth-child(1)
+      width: 13%
+    th:nth-child(2)
+      width: 35%
+    th:nth-child(3)
+      width: 52%
+  &.tab-peq5
+    th
+      padding: 12px 12px
+    td
+      padding: 10px 12px
+    th:nth-child(1)
+      width: 20%
+    th:nth-child(2)
+      width: 30%
+    th:nth-child(3)
+      width: 50%
