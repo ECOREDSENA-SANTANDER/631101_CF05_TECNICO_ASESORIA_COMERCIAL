@@ -1,106 +1,295 @@
 @use 'variables' as *
 .banner-principal-decorativo
   &-1
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 68%
-    left: -10%
-    width: 20%
-  &-2
     animation: float1 2.5s ease-in-out infinite alternate
     position: absolute
-    top: 30%
-    right: 10%
-    width: 20%
-
-
+    top: 50%
+    right: 26%
+    width: 15%
+  &-2
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 50%
+    right: 5%
+    width: 15%
 @keyframes float1
   0%
     transform: translateY(20px)
-
   100%
     transform: translateY(0px)
 
 .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
   flex: 0 0 auto !important
-  width: 58.33333333% !important
+  width: 40% 
+  //@media only screen and (min-width: 1024px)
+    margin-left: 50px
+  @media only screen and (max-width: 1023px)
+    width: 100%
+
 .banner-principal__img 
-  padding-bottom: 0 !important;
+  padding-bottom: 0 !important
 .banner-principal__row .banner-principal__img 
-    width: 33%;
-    
-.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
-  color: $color-sistema-texto !important  
+  width: 40%
+  margin-bottom: 5% !important
 
-.boton *, .boton--sm *,
-.barra-avance__boton--regresar span
-  color: $white !important
-.banner-interno__titulo h1, .banner-interno__titulo h2, 
-.banner-interno__titulo h3, .banner-interno__titulo h4, 
-.banner-interno__titulo h5, .banner-interno__titulo h6
-  color: $color-sistema-texto !important  
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: $white !important
-figcaption 
-    font-weight: normal !important
+  color: black !important   
+//.titulo-principal.color-acento-contenido .titulo-principal__numero 
+  background-color: #D5A77A
 
-.banner-interno__titulo__icono i
-    color: $color-acento-botones !important;
+figcaption
+  font-weight: normal
 
+.banner-principal
+  @media (max-width: $bp-max-md)
+    .tarjeta
+      background-image: url('../assets/curso/portada/tablet.png') !important
+      background-repeat: no-repeat
+      background-size: cover
+      background-position: center
+    &__info
+      padding-top: 10% !important 
+      padding-right: 5% !important
+  @media (max-width: 767px) 
+    .tarjeta
+      background-image: url('../assets/curso/portada/movil.png') !important
+      background-repeat: no-repeat
+      background-size: cover
+      background-position: center
+    &__info
+      padding-top: 15% !important 
+      padding-right: 5% !important
+      margin-bottom: 10% !important
+.banner-interno__fondo    
+  background-image: url("../assets/curso/portada/portada.png") !important
 
-/**************************************************************/
-/***CUSTOM STYLES***/
-/**************************************************************/
-.p-full-width
-  padding: 3rem 3.5rem!important;
-.bg-full-width
-  background-size: cover
-  background-repeat: no-repeat
-  background-position: bottom
-  margin-inline: -3.3rem
-.bg-fondo
-  &-1
-    //background-image: url(../assets/curso/bg/3.svg)
-.bg-color
-  &-1
-    background-color: $color-primario
+.barra-avance__boton--regresar span 
+    color: $color-sistema-texto !important
 
+.titulo-sexto
+  border-left: 10px solid
+  padding: 6px 0 6px 8px
+  border-left-color: #8CE6FE !important
 
+.titulo-segundo:after 
+  content: ''
+  display: block
+  height: 4.5px
+  width: 140px
+  border-left: solid 50px
+  border-left-color: #46D9FF
+  background-color: #DBDADA
 
-
-
-
-
-/**************************************************************/
-/*Media Queries*/  
-/**************************************************************/
-
-//// DESKTOP SMALL 1400--------------------------------------
-@media screen and (max-width: $bp-min-xxl)
-  .mb-cus
-    margin-bottom: 2em  !important 
-
-//// TABLET 992--------------------------------------
-@media screen and (max-width: $bp-max-md)
-  .mb-cus
-    margin-bottom: 2em  !important  
-  .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
-    width: 90% !important
-
+.cen
+  display: flex
+  flex-direction: column
+  align-items: flex-start
+  justify-content: center
   
- 
-  
-//// TABLET MINI 768--------------------------------------
-@media screen and (max-width: $bp-min-md)
-  .mb-cus
-    margin-bottom: 2em  !important  
+.img-t
+  width: auto
+  height: auto 
+.img-a
+  display: block
+  margin: auto
 
-  
 
-//// MOBILE 576--------------------------------------
-@media screen and (max-width: $bp-min-sm)
-  .mb-cus
-    margin-bottom: 2em  !important
+.fon
+  padding: 1.2rem
+  @media (min-width: 768px)
+    padding: 2.2rem
+  @media (min-width: 1024px)
+    padding: 2.6rem
+.fd1
+  background: url('../assets/curso/intro/fd1.png') bottom / 100% 100% no-repeat
+  margin-inline: -2rem
+  margin-top: -50px
+  @media (min-width: 768px)
+    margin-inline: -3rem
+  @media (min-width: 993px)
+    margin-inline: -3.4rem
 
+.bloque-texto-g
+  &.color-secundario 
+    background-color: #CCDCE0
+  &.color-secund
+    background-color: #AEA3BE
+
+.bg1
+  background-color: #CCDCE0
+  min-height: 343.23px
+  @media only screen and (max-width: 1023px)
+    min-height: auto
+
+.bg2,
+.bg3
+  border-radius: 20px
+.bg2
+  background-color: #B5F0FF
+.bg3
+  background-color: #D6D1DF
+@media (min-width: 768px)
+  .bg2
+    border-radius: 20px 0 0 20px
+  .bg3
+    border-radius: 0 20px 20px 0
+.caja-img
+  display: flex
+  align-items: center
+  justify-content: center
+  height: 120px
+  img
+    width: auto
+    max-width: 100%
+    max-height: 100%
+
+.tit-doble
+  --ico: 2.75rem
+  position: relative
+  display: flex
+  align-items: center
+  gap: 0.9rem
+  width: fit-content
+  max-width: 100%
+  padding-right: 1.5rem
+  &::after
+    content: ''
+    position: absolute
+    left: var(--ico)
+    right: 0
+    bottom: 0
+    height: 9px
+    border-block: 3px solid #AEA3BE
+  &__ico
+    flex: 0 0 auto
+    width: var(--ico)
+    height: auto
+
+.bloquet-wrap
+  container-type: inline-size
+.bloquet
+  position: relative
+.mod
+  position: relative
+  padding: 1.5rem 1.25rem
+  background-color: var(--bg)
+  p
+    line-height: 1.6
+  &--1
+    --bg: #D6D1DF
+    border-radius: 20px 20px 0 0
+  &--2
+    --bg: #B5F0FF
+  &--3
+    --bg: #9BBCCB
+    border-radius: 0 0 20px 20px
+  &__ima
+    position: absolute
+    top: 50%
+    left: 0
+    width: 5.6rem
+    height: auto
+    transform: translate(-50%, -50%)
+.mod__mujer
+  display: none
+  position: absolute
+  right: -9.4%
+  bottom: -0.5%
+  width: 49%
+  height: auto
+  z-index: 2
+  pointer-events: none
+@media (min-width: 992px)
+  .bloquet
+    margin-left: 2.8rem
+  .mod
+    padding: 2rem 3rem 2rem 4.5rem
+@container (min-width: 1100px)
+  .bloquet
+    width: calc((83.333% - 2.8rem) / 1.094)
+    margin: 2.6rem 0 0 calc(8.333% + 2.8rem)
+  .mod
+    padding-right: 16%
+    &--1
+      padding-right: 42%
+      border-radius: 20px 0 0 0
+    &--3
+      border-radius: 0 0 0 20px
+  .mod__mujer
+    display: block
+
+.bg4
+  background-color: #ECFBFF
+
+.b2
+  background-color: #B5F0FF
+  border-radius: 20px
+  &:hover
+    background-color: #D6D1DF
+.slyder-f__btn i
+  font-size: 4rem
+  color: #FFD633
+
+.bg5
+  background-color: #D6D1DF
+  border-radius: 18px
+
+
+
+
+
+
+
+
+//////////////////////////////////////TABLAS////////////////////////////////////
   
- 
+.tabla-a
+  table
+    width: 100%
+    table-layout: auto
+  thead
+    border-top: 6px solid #46D9FF
+    color: $color-sistema-texto
+    background-color: #ECFBFF
+  th, td
+    overflow-wrap: normal
+    word-break: normal
+    hyphens: none
+    white-space: normal
+    vertical-align: top
+    text-align: left
+  th
+    padding: 16px 12px
+    border-color: #ECFBFF
+  td
+    padding: 15px 12px
+  &.tab2
+    th:nth-child(1)
+      width: 25%
+    th:nth-child(2)
+      width: 45%
+    th:nth-child(3)
+      width: 30%
+
+//////////////////////////////////////TABLAS-peq////////////////////////////////////
+
+.tabla-a.tabla-peq
+  --min: 500px
+  overflow: visible !important
+  table
+    width: 100% !important
+    min-width: auto !important
+  @media (max-width: 991px)
+    overflow-x: auto !important
+    display: block !important
+    table
+      min-width: var(--min) !important
+  &.tab-peq1
+    th
+      padding: 12px 13px
+    td
+      padding: 9px 13px
+    th:nth-child(1)
+      width: 20%
+    th:nth-child(2)
+      width: 80%

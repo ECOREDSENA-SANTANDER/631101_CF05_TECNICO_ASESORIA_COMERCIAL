@@ -5,7 +5,80 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Tema 3
+      h1 Comunicación
+
+
+
+
+    separador
+    #t_3_1.titulo-segundo.mb-5
+      h2 3.1 Concepto y elementos
+
+
+
+
+
+
+
+
+
+    separador
+    #t_3_2.titulo-segundo.mb-5
+      h2 3.2 Herramientas y funciones
+
+
+
+
+
+
+
+
+
+
+
+
+
+    separador
+    #t_3_3.titulo-segundo.mb-5
+      h2 3.3 Tipos de comunicación
+
+
+
+
+
+
+
+
+
+
+
+    separador
+    #t_3_4.titulo-segundo.mb-5
+      h2 3.4 Medios de comunicación
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    separador
+    #t_3_5.titulo-segundo.mb-5
+      h2 3.5 Comunicación con los clientes
+
+
+
+
+
+
 
 </template>
 

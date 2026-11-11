@@ -5,7 +5,62 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Tema 2
+      h1 Transacciones comerciales
+
+
+
+    separador
+    #t_2_1.titulo-segundo.mb-5
+      h2 2.1 Formas de pago
+
+
+
+
+
+
+
+
+
+    separador
+    #t_2_2.titulo-segundo.mb-5
+      h2 2.2 Documentos comerciales
+
+
+
+
+
+
+
+
+
+
+
+
+
+    separador
+    #t_2_3.titulo-segundo.mb-5
+      h2 2.3 Condiciones comerciales
+
+
+
+
+
+
+
+
+
+
+
+    separador
+    #t_2_4.titulo-segundo.mb-5
+      h2 2.4 Condiciones de entrega
+
+
+
+
+
+
+
 
 </template>
 
