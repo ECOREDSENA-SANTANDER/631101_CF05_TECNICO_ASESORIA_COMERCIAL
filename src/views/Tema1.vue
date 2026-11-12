@@ -354,19 +354,19 @@
           ul.lista-ul.mb-0
             li.d-flex.mb-2
               i.fas.fa-user
-              p.mb-0 Orientación al cliente: prioriza la identificación de necesidades y expectativas antes de presentar una oferta comercial.
+              p.mb-0 #[b Orientación al cliente:] prioriza la identificación de necesidades y expectativas antes de presentar una oferta comercial.
             li.d-flex.mb-2
               i.fas.fa-user
-              p.mb-0 Comunicación efectiva: utiliza preguntas abiertas, lenguaje claro y estrategias de comunicación asertiva para comprender los requerimientos del cliente.
+              p.mb-0 #[b Comunicación efectiva:] utiliza preguntas abiertas, lenguaje claro y estrategias de comunicación asertiva para comprender los requerimientos del cliente.
             li.d-flex.mb-2
               i.fas.fa-user
-              p.mb-0 Asesoramiento personalizado: propone alternativas considerando el presupuesto, las preferencias y las condiciones particulares del comprador.
+              p.mb-0 #[b Asesoramiento personalizado:] propone alternativas considerando el presupuesto, las preferencias y las condiciones particulares del comprador.
             li.d-flex.mb-2
               i.fas.fa-user
-              p.mb-0 Generación de confianza: proporciona información transparente sobre las características, beneficios y limitaciones de los productos o servicios.
+              p.mb-0 #[b Generación de confianza:] proporciona información transparente sobre las características, beneficios y limitaciones de los productos o servicios.
             li.d-flex.mb-0
               i.fas.fa-user
-              p.mb-0 Relaciones a largo plazo: promueve la satisfacción, fidelización y continuidad de la relación comercial.
+              p.mb-0 #[b Relaciones a largo plazo:] promueve la satisfacción, fidelización y continuidad de la relación comercial.
       .col-lg-5
         img(src='@/assets/curso/tema1/25.svg')
 
@@ -462,51 +462,128 @@
     
     p.mb-4 La organización de una clínica de venta requiere una secuencia de actividades que permita preparar, ejecutar y evaluar el ejercicio práctico.
 
-    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
         .titulo-sexto.mb-4
           h5 Tabla 6.
           | Etapas para el desarrollo de una clínica de venta
         .row.justify-content-center.align-items-start.mb-0
-          .col-lg-9
-            .tabla-a.tabla-peq.tab-peq5.mb-3
+          .col-lg-8
+            .tabla-a.tabla-peq.tab-peq6.mb-3
               table
                 thead
                   tr
-                    th Tipo de pregunta
-                    th Finalidad
-                    th Ejemplo
+                    th Etapa
+                    th Descripción
                 tbody
                   tr
-                    td Situación
-                    td Conocer las condiciones actuales del cliente.
-                    td ¿Qué sistema utiliza actualmente para gestionar sus ventas?
+                    td 1. Definición del caso comercial
+                    td Plantear una situación relacionada con la atención, asesoría, negociación o venta de un producto o servicio.
                   tr
-                    td Problema
-                    td Identificar dificultades o necesidades.
-                    td ¿Qué inconvenientes presenta al registrar los pedidos?
+                    td 2. Asignación de roles
+                    td Establecer las funciones de los participantes, como asesor comercial, cliente y evaluador.
                   tr
-                    td Implicación
-                    td Comprender las consecuencias del problema.
-                    td ¿Cómo afectan esos inconvenientes los tiempos de atención?
+                    td 3. Preparación de la actividad
+                    td Definir los objetivos, las condiciones comerciales, los recursos disponibles y los criterios de evaluación.
                   tr
-                    td Necesidad - beneficio
-                    td Identificar el valor de resolver el problema.
-                    td ¿Qué beneficios obtendría al contar con un sistema que reduzca los errores?
-            p.mb-0 Estas técnicas pueden adaptarse a diferentes contextos comerciales y deben aplicarse respetando la autonomía del cliente y proporcionando información clara y verificable.
-          .col-lg-3
+                    td 4. Desarrollo de la simulación
+                    td Representar la interacción comercial aplicando técnicas de comunicación, argumentación, negociación y cierre de ventas.
+                  tr
+                    td 5. Evaluación del desempeño
+                    td Valorar el cumplimiento de los criterios establecidos mediante una lista de chequeo.
+                  tr
+                    td 6. Realimentación y mejora
+                    td Identificar fortalezas, dificultades y recomendaciones para fortalecer las competencias comerciales.
+            p.mb-0 La aplicación de estas etapas permite desarrollar simulaciones comerciales de manera organizada, integrando los conocimientos teóricos con situaciones prácticas propias de la actividad de ventas. Entre las competencias que pueden fortalecerse mediante estos ejercicios se encuentra el manejo de objeciones.
+          .col-lg-4
             img(src='@/assets/curso/tema1/30.png')
 
+    .tit-doble.mb-5(data-aos="fade-right")
+      img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/ico.svg')")
+      h3 Manejo de objeciones
 
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        img(src='@/assets/curso/tema1/31.png')
 
+    p.mb-4 Las objeciones son inquietudes, dudas o desacuerdos que manifiesta el cliente durante el proceso de venta. Generalmente, están relacionadas con el precio, las características y beneficios del producto o servicio, las condiciones de pago, las garantías o la conveniencia de realizar la compra.
 
+    p.mb-5 El manejo adecuado de las objeciones requiere identificar y comprender las preocupaciones del cliente, proporcionar información clara y confiable, resolver sus inquietudes y proponer alternativas acordes con sus necesidades. Este proceso contribuye a fortalecer la confianza, facilitar la toma de decisiones informadas y favorecer una relación comercial basada en el respeto y la transparencia.
+
+    .bg6.mb-0.overflow-hidden
+      .row.g-0.align-items-stretch.mb-0
+        .col-lg-7.d-flex.flex-column.justify-content-center.p-4.p-lg-5
+          .bg8.p-2.mb-4
+            h4.mb-0.text-white Ejemplo de aplicación
+          ul.lista-ul.mb-3
+            li.d-flex.mb-2
+              i.fas.fa-user
+              p.mb-0 Cliente: «El producto me parece costoso».
+            li.d-flex.mb-0
+              i.fas.fa-user
+              p.mb-0 Asesor comercial: «Comprendo su inquietud. Podemos revisar las características incluidas en el precio y compararlas con otras alternativas disponibles para identificar cuál responde mejor a su presupuesto y necesidades».
+          p.mb-0 El manejo de objeciones no consiste en presionar al cliente para concretar la compra, sino en ofrecer argumentos claros, resolver inquietudes y facilitar decisiones comerciales informadas.
+        .col-lg-5.col-imga.d-none.d-lg-block
+          img.imga(src='@/assets/curso/tema1/32.svg')
 
 
     separador
     #t_1_7.titulo-segundo.mb-5
       h2 1.7 #[em Merchandising] en el punto de venta
 
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-5
+        img(src='@/assets/curso/tema1/33.png')
+      .col-lg-7
+        .row.justify-content-center.mb-4
+          .col-lg-2
+            img.img-t(src='@/assets/curso/tema1/24.svg')
+          .col-lg-10.ps-lg-0
+            p.mb-0 El #[em merchandising] comprende el conjunto de técnicas y acciones comerciales orientadas a organizar, presentar y destacar los productos en el punto de venta, con el propósito de facilitar su identificación, mejorar la experiencia de compra y contribuir al cumplimiento de los objetivos comerciales de la organización.
+        p.mb-0 Su aplicación incluye la distribución de los productos, la organización de espacios comerciales, la ubicación de artículos, la señalización de precios y promociones, así como el mantenimiento de condiciones adecuadas de exhibición.
 
+    .row.justify-content-center.align-items-center.mb-lg-5.mb-4(data-aos="fade-left")
+      .col-lg-8
+        AcordionA.press(tipo="b" clase-tarjeta="tarjeta tarjeta--grey")
+          .row.align-items-center(titulo="Principales técnicas de <em>merchandising</em>")
+            .col-lg-12
+              ul.lista-ul.mb-0
+                li.d-flex.mb-2
+                  i.fas.fa-user
+                  p.mb-0 #[b Exhibición de productos:] consiste en organizar y presentar los artículos de manera accesible, considerando sus características, categorías y necesidades de los clientes.
+                li.d-flex.mb-2
+                  i.fas.fa-user
+                  p.mb-0 #[b Distribución del espacio comercial:] permite organizar las áreas de circulación y ubicación de productos para facilitar el recorrido y la compra.
+                li.d-flex.mb-2
+                  i.fas.fa-user
+                  p.mb-0 #[b Señalización comercial:] proporciona información clara sobre precios, características, promociones y ubicación de los productos.
+                li.d-flex.mb-2
+                  i.fas.fa-user
+                  p.mb-0 #[b Organización de estanterías:] establece criterios para distribuir los productos según su categoría, rotación, tamaño y disponibilidad.
+                li.d-flex.mb-0
+                  i.fas.fa-user
+                  p.mb-0 #[b Promociones en el punto de venta:] comprende acciones comerciales destinadas a comunicar ofertas, descuentos y beneficios autorizados por la organización.
+          .row.align-items-center(titulo="Aplicación en la asesoría comercial")
+            .col-lg-12
+              p.mb-4 El asesor comercial contribuye a la implementación del #[em merchandising] mediante la organización de los productos, la actualización de la información comercial y la verificación de las condiciones de exhibición, de acuerdo con los procedimientos establecidos por la empresa.
+              p.mb-4 Por ejemplo, en un establecimiento de productos tecnológicos, los computadores pueden organizarse según sus características y usos, acompañados de información sobre precios, especificaciones y condiciones comerciales. Esta disposición facilita la comparación de alternativas y permite al asesor orientar al cliente hacia productos acordes con sus necesidades.
+              p.mb-4 La aplicación adecuada del #[em merchandising] complementa las estrategias y técnicas de venta, favorece la organización del establecimiento y contribuye a una experiencia de compra satisfactoria.
+              p.mb-0 Le invitamos a acceder al pódcast, en el que se abordan estrategias de #[em merchandising,] organización comercial, comportamiento del consumidor y gestión de productos para fortalecer la asesoría y mejorar la experiencia de compra.
+      .col-lg-4.d-none.d-lg-block
+        img(src='@/assets/curso/tema1/34.png')
+
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
+      .col-lg-12
+        img(src='@/assets/curso/tema1/35.svg')
+        .row.justify-content-center.g-0
+          .col-lg-12
+            .tarjeta.color-primario.p-4.rounded-0.h-100
+              .tarjeta.bg-white.p-4.p-lg-5.h-100
+                TarjetaAudio.color-acento-botones.mb-0(
+                texto="Cómo transformar el punto de venta en una experiencia de compra"
+                :audio="require_src('@/assets/actividad/audio/end-game-success.mp3')"
+              ).mb-0
+                p.mb-0 
 
 
 </template>

@@ -114,6 +114,8 @@ figcaption
     background-color: #CCDCE0
   &.color-secund
     background-color: #AEA3BE
+  &.color-acento-botones
+    background-color: #FEEFAD
 
 .bg1
   background-color: #CCDCE0
@@ -289,19 +291,99 @@ figcaption
     &.color-acento-boton .linea-tiempo-d__item--selected .linea-tiempo-d__item__content
       padding: 0.5rem
 
+.imga
+  display: block
+  width: 100%
+  height: auto
+@media (min-width: 992px)
+  .col-imga
+    position: relative
+    .imga
+      position: absolute
+      inset: 0
+      width: 100%
+      height: 100%
+      object-fit: cover
+      object-position: right center
+.bg8
+  background-color: #1C5666
+  width: fit-content
 
+.acordion__accion__btn--b
+  background-color: #FFD633
+  transition: all 0.3s ease-out
+  border:#FFD633
+  color: black
+.acordion__activo
+  background-color: #ECFBFF !important
+  transition: all 0.3s ease-out
+  h3
+    color: $color-sistema-texto !important
+.tarjeta--grey
+  border-radius: 20px
+  background-color: #AEA3BE
+  h3
+    color: $color-sistema-texto
+.acordion.press .acordion__activo .acordion__accion__btn--b
+  background-color: #FFD633
+  color: black
 
+.tarjeta-audio 
+  border: 3px solid
+.tarjeta-audio.color-acento-botones .tarjeta-audio__texto 
+  color: black
+.fst-italic 
+  font-style: normal !important
+.tarjeta.color-secundario i
+  color: #000
+.tarjeta-audio.color-acento-botones .tarjeta-audio__texto
+  color: black
+  font-style: normal !important
+.tarjeta.color-secundario * 
+  color: #000
 
+.bg9
+  background-color:#AEA3BE
 
+.acordion__accion__btn--a
+  background-color: #FFD633
+  box-shadow: 0px 0px 7px 2px rgba(0,0,0,.3)
+.acordion .tarjeta--azull
+  background-color: #AEA3BE
+  h3
+    color: $color-sistema-texto
+.acordion__accion__btn--a i, .acordion__accion__btn--b i .activ
+  color: $color-sistema-texto
+.acordion.activ .acordion__activo .acordion__accion__btn--a
+  background-color: #FFD633
+  i
+    color: $color-sistema-texto !important
+.activ
+  .acordion__activo 
+    background-color: #ECFBFF !important
+    transition: all 0.3s ease-out
+    h3
+      color: $color-sistema-texto 
 
+.bg10
+  background-color: #B5F0FE
 
+.bg11
+  background-color: #AEA3BE
+  border-radius: 19px
 
-
+.bg12
+  background-color: #FEEFAD
+  border-radius: 19px
 
 
 
 //////////////////////////////////////TABLAS////////////////////////////////////
-  
+
+.bgw
+  background-color: #ffffff
+.bgr
+  background-color: #F6F6F6
 .tabla-a
   table
     width: 100%
@@ -374,3 +456,82 @@ figcaption
       width: 30%
     th:nth-child(3)
       width: 50%
+  &.tab-peq6
+    th
+      padding: 12px 12px
+    td
+      padding: 8px 12px
+    th:nth-child(1)
+      width: 35%
+    th:nth-child(2)
+      width: 65%
+  &.tab-peq7,
+  &.tab-peq8,
+  &.tab-peq9
+    thead
+      border-top: none
+      background-color: #46D9FD
+    th
+      border-color: #46D9FD
+  &.tab-peq8
+    th
+      padding: 16px 13px
+    td
+      padding: 20px 13px
+    th:nth-child(1)
+      width: 24%
+    th:nth-child(2)
+      width: 38%
+    th:nth-child(3)
+      width: 38%
+  &.tab-peq10
+    th
+      padding: 10px 13px
+    td
+      padding: 8px 13px
+    th:nth-child(1)
+      width: 20%
+    th:nth-child(2)
+      width: 40%
+    th:nth-child(3)
+      width: 40%
+  &.tab-peq11
+    th
+      padding: 10px 13px
+    td
+      padding: 10px 13px
+    th:nth-child(1)
+      width: 30%
+    th:nth-child(2)
+      width: 70%
+  &.tab-peq12
+    th
+      padding: 10px 13px
+    td
+      padding: 8.5px 13px
+    th:nth-child(1)
+      width: 30%
+    th:nth-child(2)
+      width: 70%
+  &.tab-peq14
+    th
+      padding: 10px 13px
+    td
+      padding: 8.5px 13px
+    th:nth-child(1)
+      width: 18%
+    th:nth-child(2)
+      width: 42%
+    th:nth-child(3)
+      width: 40%
+  &.tab-peq15
+    th
+      padding: 10px 13px
+    td
+      padding: 8px 13px
+    th:nth-child(1)
+      width: 20%
+    th:nth-child(2)
+      width: 40%
+    th:nth-child(3)
+      width: 40%
