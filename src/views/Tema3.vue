@@ -21,7 +21,7 @@
             br 
             p.mb-0 En los procesos comerciales, la comunicación permite identificar las necesidades del cliente, proporcionar información sobre productos o servicios, resolver inquietudes y establecer acuerdos durante la negociación. Su efectividad depende de la claridad de los mensajes, la capacidad para comprender las necesidades del interlocutor y la utilización adecuada de los diferentes canales de comunicación.
 
-    p.mb-(data-aos="fade-left")0 Una comunicación clara, respetuosa y oportuna contribuye a fortalecer la confianza, prevenir malentendidos, mejorar la experiencia de compra y construir relaciones comerciales duraderas. Por esta razón, el asesor comercial debe desarrollar habilidades de comunicación oral, escrita, no verbal y digital, adaptándolas a las características de cada cliente y a las situaciones que se presentan durante el proceso de venta.
+    p.mb-0(data-aos="fade-left") Una comunicación clara, respetuosa y oportuna contribuye a fortalecer la confianza, prevenir malentendidos, mejorar la experiencia de compra y construir relaciones comerciales duraderas. Por esta razón, el asesor comercial debe desarrollar habilidades de comunicación oral, escrita, no verbal y digital, adaptándolas a las características de cada cliente y a las situaciones que se presentan durante el proceso de venta.
 
 
     separador
