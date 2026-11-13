@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span
           i.fas.fa-info
-      h1 Introducción
+      h1 Introducciónnnnnnnnnnnnnnnnnnnn
     
     .row.fd1.fon.mb-5(data-aos="fade-down")
       .col-lg-12
