@@ -100,7 +100,8 @@ figcaption
     padding: 2.2rem
   @media (min-width: 1024px)
     padding: 2.6rem
-.fd1
+.fd1,
+.fd3
   background: url('../assets/curso/intro/fd1.png') bottom / 100% 100% no-repeat
   margin-inline: -2rem
   margin-top: -50px
@@ -108,6 +109,8 @@ figcaption
     margin-inline: -3rem
   @media (min-width: 993px)
     margin-inline: -3.4rem
+.fd3
+  margin-top: 0px
 
 .bloque-texto-g
   &.color-secundario 
@@ -265,11 +268,13 @@ figcaption
 .bg6
   background-color: #CCDCE0
 
-.bg7
+.bg7,
+.bg14
   background: url('../assets/curso/tema1/fd2.png') center / cover no-repeat
   @media (min-width: 992px)
     min-height: var(--alto, 482.85px)
-
+.bg14
+  --alto: 357.24px
 .tarjeta--gris
   background-color: #AEA3BE
 .linea-tiempo-d
@@ -376,6 +381,49 @@ figcaption
   background-color: #FEEFAD
   border-radius: 19px
 
+.bg13
+  background-color: #B5F0FE
+  border-radius: 24px
+
+.color-acento-botones
+  .tabs-a__tab
+    padding: 12px 13px
+    font-size: 16px  
+    white-space: normal 
+    line-height: 1.4
+    min-height: 40px 
+  @media (min-width: 1200px) 
+    .col-xl-3
+      flex: 0 0 auto
+      width: 50%
+    .col-xl-9
+      flex: 0 0 auto
+      width: 50%
+.tabs-a__tab:last-child 
+  margin-bottom: 0 !important
+  background-color: #D6D1DF
+  color: black //para hover deja texto como se pide en activo
+.color-a
+  background-color: #CCDCE0
+.tabs-a.color-acento-botones .tabs-a__tab__selected 
+  background-color: #FFD633!important
+  color: black !important
+.tabs-a.color-acento-botones .tabs-a__tab__selected:before 
+  background-color:  #FFD633!important
+
+.bg18
+  background-color: #D4D6D6
+.slyder__btn
+  background-color: #FFD633
+  color: black
+.slib
+  @media (min-width: 992px) 
+    .col-lg-8 
+        flex: 0 0 auto
+        width: 60%
+    .col-lg-4
+        flex: 0 0 auto
+        width: 40%
 
 
 //////////////////////////////////////TABLAS////////////////////////////////////
@@ -533,5 +581,27 @@ figcaption
       width: 20%
     th:nth-child(2)
       width: 40%
+    th:nth-child(3)
+      width: 40%
+  &.tab-peq17
+    th
+      padding: 10px 13px
+    td
+      padding: 8px 13px
+    th:nth-child(1)
+      width: 21%
+    th:nth-child(2)
+      width: 39%
+    th:nth-child(3)
+      width: 40%
+  &.tab-peq18
+    th
+      padding: 10px 13px
+    td
+      padding: 7.5px 13px
+    th:nth-child(1)
+      width: 22%
+    th:nth-child(2)
+      width: 38%
     th:nth-child(3)
       width: 40%

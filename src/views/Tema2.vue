@@ -19,14 +19,14 @@
             br 
             p.mb-0 Las transacciones comerciales no se limitan al intercambio de productos por dinero. También comprenden las actividades necesarias para formalizar la operación, registrar la información, realizar el pago, entregar el producto o prestar el servicio y cumplir los compromisos establecidos.
 
-    .bg9.p-lg-5.p-4.mb-5
+    .bg9.p-lg-5.p-4.mb-5(data-aos="fade-left")
       p.mb-0.ps-lg-5.pe-lg-5 #[b Ejemplo:] una persona compra una nevera en un establecimiento comercial. Durante la transacción, el asesor confirma el precio, informa sobre las alternativas de pago, registra la compra, gestiona la factura y comunica las condiciones de entrega y garantía.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         img(src='@/assets/curso/tema2/2.png')
 
-    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
       .col-lg-12
         AcordionA.activ(tipo="a" clase-tarjeta="tarjeta tarjeta--azull").mb-0
           .row.justify-content-center.align-items-center(titulo="Elementos de una transacción comercial")
@@ -36,7 +36,7 @@
                 h5 Tabla 7.
                 | Elementos de una transacción comercial
               .row.justify-content-center.align-items-center.mb-0
-                .col-lg-10
+                .col-lg-10.mb-lg-0.mb-4
                   .tabla-a.tabla-peq.tab-peq7.mb-0
                     table
                       thead
@@ -74,7 +74,7 @@
                 h5 Tabla 8.
                 | Tipos de transacciones comerciales
               .row.justify-content-center.align-items-center.mb-0
-                .col-lg-10
+                .col-lg-10.mb-lg-0.mb-4
                   .tabla-a.tabla-peq.tab-peq8.mb-0
                     table
                       thead
@@ -135,7 +135,7 @@
               .bg10.p-lg-5.p-4.mb-4
                 .row.justify-content-center.align-items-center.mb-0
                   .col-lg-6
-                    p.mb-0 La facturación electrónica se encuentra regulada por la Dirección de Impuestos y Aduanas Nacionales (DIAN), de acuerdo con las obligaciones y condiciones establecidas para cada responsable. También pueden utilizarse otros soportes, como comprobantes de pago, recibos de caja, órdenes de compra, documentos equivalentes y notas crédito o débito, según la naturaleza de la operación.
+                    p.mb-lg-0.mb-4 La facturación electrónica se encuentra regulada por la Dirección de Impuestos y Aduanas Nacionales (DIAN), de acuerdo con las obligaciones y condiciones establecidas para cada responsable. También pueden utilizarse otros soportes, como comprobantes de pago, recibos de caja, órdenes de compra, documentos equivalentes y notas crédito o débito, según la naturaleza de la operación.
                   .col-lg-6
                     img(src='@/assets/curso/tema2/3.png')
               p.mb-0 Es importante distinguir que los medios de pago, como las tarjetas bancarias o las transferencias electrónicas, no son documentos comerciales por sí mismos. Los comprobantes generados mediante su utilización pueden servir como evidencia del pago realizado.
@@ -145,12 +145,12 @@
     #t_2_1.titulo-segundo.mb-5
       h2 2.1 Formas de pago
 
-    p.mb-4 Las formas de pago son los mecanismos mediante los cuales el comprador cumple con la obligación económica adquirida durante una transacción comercial.
+    p.mb-4(data-aos="fade-right") Las formas de pago son los mecanismos mediante los cuales el comprador cumple con la obligación económica adquirida durante una transacción comercial.
 
-    p.mb-5 Su selección depende de las preferencias del cliente, las condiciones establecidas por la empresa, el valor de la compra y los medios disponibles.
+    p.mb-5(data-aos="fade-left") Su selección depende de las preferencias del cliente, las condiciones establecidas por la empresa, el valor de la compra y los medios disponibles.
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+      .col-lg-4.d-none.d-lg-block
         img(src='@/assets/curso/tema2/4.png')
       .col-lg-8
         .titulo-sexto.mb-4
@@ -193,18 +193,18 @@
                 td Documento mediante el cual una persona ordena a una entidad bancaria pagar una cantidad determinada de dinero.
                 td Cancelar una obligación comercial mediante cheque.
     
-    p.mb-0 El asesor comercial debe conocer las formas de pago autorizadas por la empresa, explicar sus condiciones y orientar al cliente durante el proceso. Asimismo, debe verificar la confirmación del pago según los procedimientos establecidos, evitando considerar como definitiva una operación que aún se encuentra pendiente de aprobación.
+    p.mb-0(data-aos="fade-right") El asesor comercial debe conocer las formas de pago autorizadas por la empresa, explicar sus condiciones y orientar al cliente durante el proceso. Asimismo, debe verificar la confirmación del pago según los procedimientos establecidos, evitando considerar como definitiva una operación que aún se encuentra pendiente de aprobación.
 
 
     separador
     #t_2_2.titulo-segundo.mb-5
       h2 2.2 Documentos comerciales
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-7
         .bg10.p-0
-          .row.justify-content-center.align-items-center.mb-0
-            .col-lg-8.p-lg-5.p-4
+          .row.justify-content-center.align-items-center.mb-lg-0.mb-4
+            .col-lg-8.p-5
               p.mb-4 Los documentos comerciales son registros físicos o electrónicos utilizados para formalizar, respaldar y controlar las operaciones de compra y venta de bienes o servicios.
               p.mb-0 Estos documentos permiten establecer las condiciones de una transacción, registrar compromisos entre las partes y disponer de información para los procesos administrativos, contables y tributarios.
             .col-lg-4.d-none.d-lg-block
@@ -235,7 +235,7 @@
       img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/ico.svg')")
       h3 Clasificación de los documentos comerciales
 
-    .row.justify-content-center.align-items-center.mb-0
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
       .col-lg-7
         .titulo-sexto.mb-4
           h5 Tabla 11.
@@ -274,7 +274,7 @@
               tr
                 td Nota débito
                 td Documento utilizado para registrar determinados ajustes que incrementan el valor de una operación previamente facturada.
-      .col-lg-5
+      .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/tema2/6.png')
 
 
@@ -282,9 +282,9 @@
     #t_2_3.titulo-segundo.mb-5
       h2 2.3 Condiciones comerciales
 
-    p.mb-4 Las condiciones comerciales son los acuerdos establecidos entre el comprador y el vendedor que determinan los términos bajo los cuales se realiza una transacción. Estos acuerdos permiten definir los compromisos y responsabilidades de cada parte, proporcionando claridad sobre los aspectos económicos, operativos y legales relacionados con la compra de productos o servicios.
+    p.mb-4(data-aos="fade-right") Las condiciones comerciales son los acuerdos establecidos entre el comprador y el vendedor que determinan los términos bajo los cuales se realiza una transacción. Estos acuerdos permiten definir los compromisos y responsabilidades de cada parte, proporcionando claridad sobre los aspectos económicos, operativos y legales relacionados con la compra de productos o servicios.
 
-    p.mb-4 Entre las principales condiciones comerciales se encuentran:
+    p.mb-4(data-aos="fade-right") Entre las principales condiciones comerciales se encuentran:
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-6.d-none.d-lg-block
@@ -316,16 +316,16 @@
             .col-lg-12
               p.mb-0 Prestaciones complementarias que pueden incluir instalación, mantenimiento, capacitación o asistencia técnica, según las características del producto o servicio.
 
-    p.mb-0 La definición de estas condiciones permite prevenir malentendidos, facilitar el cumplimiento de los compromisos y fortalecer la confianza entre las partes. Por esta razón, el asesor comercial debe verificar que las condiciones ofrecidas estén autorizadas por la organización y cumplan con la normativa vigente. Asimismo, debe informar de manera clara y oportuna sobre posibles restricciones, costos adicionales, garantías y procedimientos de reclamación, contribuyendo a una negociación transparente y a la toma de decisiones de compra informadas.
+    p.mb-0(data-aos="fade-right") La definición de estas condiciones permite prevenir malentendidos, facilitar el cumplimiento de los compromisos y fortalecer la confianza entre las partes. Por esta razón, el asesor comercial debe verificar que las condiciones ofrecidas estén autorizadas por la organización y cumplan con la normativa vigente. Asimismo, debe informar de manera clara y oportuna sobre posibles restricciones, costos adicionales, garantías y procedimientos de reclamación, contribuyendo a una negociación transparente y a la toma de decisiones de compra informadas.
 
 
     separador
     #t_2_4.titulo-segundo.mb-5
       h2 2.4 Condiciones de entrega
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4
-        img.mb-4(src='@/assets/curso/tema2/8.svg')
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+      .col-lg-4.mb-lg-0.mb-4
+        img.mb-4.d-none.d-lg-block(src='@/assets/curso/tema2/8.svg')
         p.mb-4 Las condiciones de entrega son los acuerdos que establecen cómo, cuándo y dónde el vendedor debe entregar los productos adquiridos por el comprador. Constituyen una parte importante de la transacción comercial, debido a que influyen en los costos, los tiempos de cumplimiento y la satisfacción del cliente.
         p.mb-0 Estas condiciones deben definirse antes de finalizar la negociación, especialmente cuado la mercancía requiere transporte, almacenamiento, instalación o procedimientos especiales.
       .col-lg-8
@@ -364,7 +364,7 @@
                 td Incumplimientos o demoras
                 td Acciones previstas cuando se presentan retrasos o dificultades en la entrega.
     
-    p.mb-4 La empresa debe gestionar el despacho, cumplir las condiciones informadas y proporcionar los mecanismos necesarios para atender cualquier inconveniente relacionado con la entrega.
+    p.mb-4(data-aos="fade-right") La empresa debe gestionar el despacho, cumplir las condiciones informadas y proporcionar los mecanismos necesarios para atender cualquier inconveniente relacionado con la entrega.
 
     .row.justify-content-center.align-items-stretch.mb-0(data-aos="fade-left")
       .col-lg-5.col-md-6.pe-lg-0.pe-md-0.mb-lg-0.mb-4

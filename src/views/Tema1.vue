@@ -7,7 +7,7 @@
         span 1
       h1 La venta
       
-    p.mb-5 La venta es una actividad comercial mediante la cual una persona u organización ofrece productos o servicios a un cliente a cambio de una contraprestación económica. Su propósito no se limita a realizar una transacción, sino que también comprende la identificación de necesidades, la presentación de soluciones y la construcción de relaciones comerciales basadas en la confianza y la satisfacción del cliente.
+    p.mb-5(data-aos="fade-left") La venta es una actividad comercial mediante la cual una persona u organización ofrece productos o servicios a un cliente a cambio de una contraprestación económica. Su propósito no se limita a realizar una transacción, sino que también comprende la identificación de necesidades, la presentación de soluciones y la construcción de relaciones comerciales basadas en la confianza y la satisfacción del cliente.
 
     .row.justify-content-center.align-items-center(data-aos="fade-right").mb-5
       .col-lg-12
@@ -18,15 +18,15 @@
           .bloque-texto-g__texto.p-lg-5.p-md-4.p-4
             p.mb-0 A lo largo de la historia, las actividades comerciales han evolucionado desde el intercambio directo de bienes, conocido como trueque, hasta los actuales sistemas de compraventa que incorporan medios de pago electrónicos, plataformas digitales y diferentes canales de comercialización. Esta transformación ha permitido ampliar los mercados y facilitar las relaciones entre compradores y vendedores.
     
-    p.mb-5 En las organizaciones, las ventas cumplen una función fundamental, debido a que contribuyen a la generación de ingresos, la sostenibilidad empresarial y el cumplimiento de los objetivos comerciales. Por esta razón, el personal encargado de la asesoría comercial debe desarrollar habilidades de comunicación, negociación, atención al cliente y conocimiento de los productos o servicios ofrecidos.
+    p.mb-5(data-aos="fade-right") En las organizaciones, las ventas cumplen una función fundamental, debido a que contribuyen a la generación de ingresos, la sostenibilidad empresarial y el cumplimiento de los objetivos comerciales. Por esta razón, el personal encargado de la asesoría comercial debe desarrollar habilidades de comunicación, negociación, atención al cliente y conocimiento de los productos o servicios ofrecidos.
 
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
       .col-lg-12
         .titulo-sexto.mb-4
           h5 Tabla 1.
           | Diferentes perspectivas de la venta
-        .row.justify-content-center.align-items-center.mb-0
-          .col-lg-6
+        .row.justify-content-center.align-items-center
+          .col-lg-6.mb-lg-0.mb-4
             .tabla-a.tabla-peq.tab-peq1.mb-0
               table
                 thead
@@ -46,7 +46,7 @@
                   tr
                     td Administrativa
                     td Actividad estratégica que contribuye al cumplimiento de las metas comerciales y al fortalecimiento de las relaciones con los clientes.
-          .col-lg-3
+          .col-lg-3.d-none.d-lg-block
             img(src='@/assets/curso/tema1/2.png')
           .col-lg-3
             .bg1.p-4.cen
@@ -57,7 +57,7 @@
     #t_1_1.titulo-segundo.mb-5
       h2 1.1 Herramientas de la venta
 
-    p.mb-5 Las herramientas de ventas son recursos, aplicaciones y procedimientos que facilitan la planificación, ejecución y seguimiento de las actividades comerciales. Su utilización permite organizar la información, mejorar la atención al cliente, administrar oportunidades de negocio y fortalecer la productividad del equipo de ventas.
+    p.mb-5(data-aos="fade-right") Las herramientas de ventas son recursos, aplicaciones y procedimientos que facilitan la planificación, ejecución y seguimiento de las actividades comerciales. Su utilización permite organizar la información, mejorar la atención al cliente, administrar oportunidades de negocio y fortalecer la productividad del equipo de ventas.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
@@ -93,35 +93,35 @@
                 td Facilitar el contacto y la atención comercial.
                 td Atender solicitudes mediante correo electrónico o mensajería empresarial.
 
-    p.mb-0 La selección de estas herramientas depende del tipo de empresa, las características del producto o servicio y las necesidades de los clientes.
+    p.mb-0(data-aos="fade-right") La selección de estas herramientas depende del tipo de empresa, las características del producto o servicio y las necesidades de los clientes.
 
 
     separador
     #t_1_2.titulo-segundo.mb-5
       h2 1.2 Clasificación de vendedores
     
-    .row.mb-5
+    .row.mb-5(data-aos="fade-left")
       .col-lg-12
         img(src='@/assets/curso/tema1/3.png')
 
-    p.mb-4 Los vendedores pueden clasificarse según el conocimiento requerido para comercializar los productos, las funciones que desempeñan y la manera en que establecen relaciones con los clientes.
-    p.mb-4 Según el conocimiento requerido:
+    p.mb-4(data-aos="fade-right") Los vendedores pueden clasificarse según el conocimiento requerido para comercializar los productos, las funciones que desempeñan y la manera en que establecen relaciones con los clientes.
+    p.mb-4(data-aos="fade-right") Según el conocimiento requerido:
 
-    .row.justify-content-center.align-items-stretch.mb-5(data-aos="fade-left")
+    .row.justify-content-center.align-items-stretch.mb-lg-5.mb-4(data-aos="fade-left")
       .col-lg-5.col-md-6.pe-lg-0.pe-md-0.mb-lg-0.mb-4
-        .bg2.p-lg-5.p-4.h-100
+        .bg2.p-lg-5.p-4.h-100.text-center
           .caja-img.mb-4
             img(src='@/assets/curso/tema1/4.svg')
-          h3.mb-4.text-center Vendedores de productos no técnicos
-          p.mb-0.text-center Comercializan bienes o servicios que generalmente requieren explicaciones sencillas sobre sus características, beneficios y condiciones de compra. Por ejemplo, prendas de vestir o artículos de uso cotidiano. 
+          h3.mb-4 Vendedores de productos no técnicos
+          p.mb-0 Comercializan bienes o servicios que generalmente requieren explicaciones sencillas sobre sus características, beneficios y condiciones de compra. Por ejemplo, prendas de vestir o artículos de uso cotidiano. 
       .col-lg-5.col-md-6.ps-lg-0.ps-md-0.mb-lg-0.mb-4
-        .bg3.p-lg-5.p-4.h-100
+        .bg3.p-lg-5.p-4.h-100.text-center
           .caja-img.mb-4
             img(src='@/assets/curso/tema1/5.svg')
-          h3.mb-4.text-center Vendedores de productos técnicos
-          p.mb-0.text-center Comercializan productos o servicios que requieren conocimientos especializados para orientar adecuadamente al cliente. Por ejemplo, equipos industriales, maquinaria o soluciones tecnológicas.
+          h3.mb-4 Vendedores de productos técnicos
+          p.mb-0 Comercializan productos o servicios que requieren conocimientos especializados para orientar adecuadamente al cliente. Por ejemplo, equipos industriales, maquinaria o soluciones tecnológicas.
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         .titulo-sexto.mb-4
           h5 Tabla 3.
@@ -147,7 +147,7 @@
                 td Identifican oportunidades comerciales, buscan clientes, presentan propuestas y negocian para concretar ventas.
                 td Ejecutivo comercial encargado de conseguir nuevos clientes empresariales.
 
-    p.mb-5 Esta clasificación permite comprender que las funciones comerciales varían según los objetivos de la organización y el tipo de relación establecida con el cliente.
+    p.mb-5(data-aos="fade-left") Esta clasificación permite comprender que las funciones comerciales varían según los objetivos de la organización y el tipo de relación establecida con el cliente.
 
     .tit-doble.mb-4(data-aos="fade-right")
       img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/ico.svg')")
@@ -175,9 +175,9 @@
     #t_1_3.titulo-segundo.mb-5
       h2 1.3 Proceso de la venta
 
-    p.mb-5 El proceso de venta comprende un conjunto de etapas organizadas que permiten identificar clientes potenciales, comprender sus necesidades, presentar alternativas y establecer acuerdos comerciales.
+    p.mb-5(data-aos="fade-right") El proceso de venta comprende un conjunto de etapas organizadas que permiten identificar clientes potenciales, comprender sus necesidades, presentar alternativas y establecer acuerdos comerciales.
 
-    .bg4.p-lg-5.p-4.mb-5
+    .bg4.p-lg-5.p-4.mb-5(data-aos="fade-left")
       .titulo-sexto.mb-4
         h5 Figura 1.
         | Etapas del proceso de venta
@@ -227,17 +227,17 @@
     #t_1_4.titulo-segundo.mb-5
       h2 1.4 Estrategias y técnicas de ventas
 
-    p.mb-0 Las estrategias de ventas son conjuntos de decisiones y acciones planificadas que orientan los esfuerzos comerciales hacia el cumplimiento de los objetivos organizacionales. Su formulación requiere conocer el mercado, identificar las características de los clientes y determinar los recursos disponibles.
+    p.mb-0(data-aos="fade-right") Las estrategias de ventas son conjuntos de decisiones y acciones planificadas que orientan los esfuerzos comerciales hacia el cumplimiento de los objetivos organizacionales. Su formulación requiere conocer el mercado, identificar las características de los clientes y determinar los recursos disponibles.
     p.mb-5 Entre las estrategias comerciales se encuentran la segmentación de clientes, la diferenciación de productos, la fidelización, la venta cruzada y la utilización de canales digitales.
     
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+      .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/tema1/18.png')
       .col-lg-7
-        .bg5.p-4.mb-3
+        .bg5.p-4.mb-lg-3.mb-4
           .row.justify-content-center.align-items-center.mb-0
             .col-lg-2
-              img(src='@/assets/curso/tema1/19.svg')
+              img.img-t.mb-lg-0.mb-4(src='@/assets/curso/tema1/19.svg')
             .col-lg-10
               p.mb-0 Por ejemplo, una empresa de electrodomésticos puede desarrollar una estrategia dirigida a clientes que buscan equipos de bajo consumo energético, ofreciendo asesoría especializada, alternativas de financiación y acompañamiento posventa.
         p.mb-0 Amplíe sus conocimientos sobre estrategias de ventas. Le invitamos a consultar el video del Ecosistema de Recursos Educativos Digitales SENA, para fortalecer la comprensión de las técnicas y estrategias comerciales que contribuyen a mejorar la atención al cliente y el desarrollo del proceso de venta.
@@ -246,7 +246,7 @@
       img.tit-ico__img(src="@/assets/curso/tema1/20.svg", alt="")
       h4.mb-0 Estrategia de ventas
 
-    .row.justify-content-center.align-items-center.mb-5           
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")           
       .col-lg-12
         figure
           .video
@@ -258,7 +258,7 @@
       h3 Técnicas de venta
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
-      .col-lg-3
+      .col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/tema1/21.png')
       .col-lg-9
         p.mb-3 Las técnicas de venta comprenden un conjunto de métodos y procedimientos que orientan la interacción entre el asesor comercial y el cliente, facilitando la identificación de necesidades, la presentación de soluciones y la toma de decisiones de compra. 
@@ -291,7 +291,7 @@
                 td Facilitar la decisión de compra.
                 td Explicar las condiciones comerciales y orientar la formalización del pedido.
 
-    p.mb-5 Otra técnica utilizada en los procesos comerciales es el #[b método SPIN], cuyo nombre corresponde a cuatro tipos de preguntas: Situación, Problema, Implicación y Necesidad - beneficio. Este método se fundamenta en la formulación de preguntas estratégicas que permiten conocer la situación actual del cliente, identificar sus dificultades, comprender las consecuencias de estas y establecer los beneficios de una posible solución. Su aplicación facilita una asesoría comercial personalizada y orientada a las necesidades reales del cliente.
+    p.mb-5(data-aos="fade-right") Otra técnica utilizada en los procesos comerciales es el #[b método SPIN], cuyo nombre corresponde a cuatro tipos de preguntas: Situación, Problema, Implicación y Necesidad - beneficio. Este método se fundamenta en la formulación de preguntas estratégicas que permiten conocer la situación actual del cliente, identificar sus dificultades, comprender las consecuencias de estas y establecer los beneficios de una posible solución. Su aplicación facilita una asesoría comercial personalizada y orientada a las necesidades reales del cliente.
 
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
       .col-lg-12
@@ -300,7 +300,7 @@
           | Método SPIN
         .row.justify-content-center.align-items-start.mb-0
           .col-lg-9
-            .tabla-a.tabla-peq.tab-peq5.mb-3
+            .tabla-a.tabla-peq.tab-peq5.mb-lg-3.mb-4
               table
                 thead
                   tr
@@ -325,7 +325,7 @@
                     td Identificar el valor de resolver el problema.
                     td ¿Qué beneficios obtendría al contar con un sistema que reduzca los errores?
             p.mb-0 Estas técnicas pueden adaptarse a diferentes contextos comerciales y deben aplicarse respetando la autonomía del cliente y proporcionando información clara y verificable.
-          .col-lg-3
+          .col-lg-3.d-none.d-lg-block
             img(src='@/assets/curso/tema1/22.png')
 
 
@@ -333,22 +333,22 @@
     #t_1_5.titulo-segundo.mb-5
       h2 1.5 Venta consultiva
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+      .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/tema1/23.png')
       .col-lg-7
         .row.justify-content-center.mb-3
           .col-lg-2
-            img.img-t(src='@/assets/curso/tema1/24.svg')
+            img.img-t.d-none.d-lg-block(src='@/assets/curso/tema1/24.svg')
           .col-lg-10.ps-lg-0
             p.mb-0 La venta consultiva es un enfoque comercial centrado en comprender las necesidades, expectativas y características del cliente para recomendar soluciones adecuadas, en lugar de priorizar exclusivamente el cierre inmediato de la transacción. Su propósito es generar valor mediante una atención personalizada que contribuya a la satisfacción del cliente y al establecimiento de relaciones comerciales duraderas.
         p.mb-0 En este modelo, el asesor comercial desempeña una función de orientación y acompañamiento durante el proceso de compra. Para ello, requiere conocimiento de los productos o servicios, capacidad de análisis, comunicación asertiva, empatía y habilidades para construir relaciones de confianza.
 
-    .tit-doble.mb-5(data-aos="fade-right")
+    .tit-doble.mb-5(data-aos="fade-left")
       img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/ico.svg')")
       h3 Características de la venta consultiva
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-7
         .bg6.p-4
           ul.lista-ul.mb-0
@@ -367,51 +367,23 @@
             li.d-flex.mb-0
               i.fas.fa-user
               p.mb-0 #[b Relaciones a largo plazo:] promueve la satisfacción, fidelización y continuidad de la relación comercial.
-      .col-lg-5
+      .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/tema1/25.svg')
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+      .col-lg-12
+        SlyderB.slib(:datos="datosSlyder").bg18.p-lg-5.p-4
 
     .tit-doble.mb-5(data-aos="fade-right")
       img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/ico.svg')")
       h3 Importancia de la venta consultiva
 
-    .row.justify-content-center.align-items-center.mb-0
-      .col-lg-5
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
+      .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/tema1/26.png')
       .col-lg-7
         .row.justify-content-center.mb-3
-          .col-lg-2
+          .col-lg-2.d-none.d-lg-block
             img.img-t(src='@/assets/curso/tema1/24.svg')
           .col-lg-10.ps-lg-0
             p.mb-0 La venta consultiva permite transformar la interacción comercial en un proceso de asesoramiento fundamentado en la comunicación, el conocimiento del producto y la comprensión de las necesidades del comprador. Su aplicación contribuye a reducir decisiones de compra inadecuadas, fortalecer la confianza, mejorar la experiencia del cliente y generar oportunidades de fidelización.
@@ -460,7 +432,7 @@
       img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/ico.svg')")
       h3 Etapas para desarrollar una clínica de venta
     
-    p.mb-4 La organización de una clínica de venta requiere una secuencia de actividades que permita preparar, ejecutar y evaluar el ejercicio práctico.
+    p.mb-4(data-aos="fade-right") La organización de una clínica de venta requiere una secuencia de actividades que permita preparar, ejecutar y evaluar el ejercicio práctico.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
@@ -469,7 +441,7 @@
           | Etapas para el desarrollo de una clínica de venta
         .row.justify-content-center.align-items-start.mb-0
           .col-lg-8
-            .tabla-a.tabla-peq.tab-peq6.mb-3
+            .tabla-a.tabla-peq.tab-peq6.mb-lg-3.mb-4
               table
                 thead
                   tr
@@ -495,22 +467,22 @@
                     td 6. Realimentación y mejora
                     td Identificar fortalezas, dificultades y recomendaciones para fortalecer las competencias comerciales.
             p.mb-0 La aplicación de estas etapas permite desarrollar simulaciones comerciales de manera organizada, integrando los conocimientos teóricos con situaciones prácticas propias de la actividad de ventas. Entre las competencias que pueden fortalecerse mediante estos ejercicios se encuentra el manejo de objeciones.
-          .col-lg-4
+          .col-lg-4.d-none.d-lg-block
             img(src='@/assets/curso/tema1/30.png')
 
     .tit-doble.mb-5(data-aos="fade-right")
       img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/ico.svg')")
       h3 Manejo de objeciones
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
         img(src='@/assets/curso/tema1/31.png')
 
-    p.mb-4 Las objeciones son inquietudes, dudas o desacuerdos que manifiesta el cliente durante el proceso de venta. Generalmente, están relacionadas con el precio, las características y beneficios del producto o servicio, las condiciones de pago, las garantías o la conveniencia de realizar la compra.
+    p.mb-4(data-aos="fade-right") Las objeciones son inquietudes, dudas o desacuerdos que manifiesta el cliente durante el proceso de venta. Generalmente, están relacionadas con el precio, las características y beneficios del producto o servicio, las condiciones de pago, las garantías o la conveniencia de realizar la compra.
 
-    p.mb-5 El manejo adecuado de las objeciones requiere identificar y comprender las preocupaciones del cliente, proporcionar información clara y confiable, resolver sus inquietudes y proponer alternativas acordes con sus necesidades. Este proceso contribuye a fortalecer la confianza, facilitar la toma de decisiones informadas y favorecer una relación comercial basada en el respeto y la transparencia.
+    p.mb-5(data-aos="fade-left") El manejo adecuado de las objeciones requiere identificar y comprender las preocupaciones del cliente, proporcionar información clara y confiable, resolver sus inquietudes y proponer alternativas acordes con sus necesidades. Este proceso contribuye a fortalecer la confianza, facilitar la toma de decisiones informadas y favorecer una relación comercial basada en el respeto y la transparencia.
 
-    .bg6.mb-0.overflow-hidden
+    .bg6.mb-0.overflow-hidden(data-aos="fade-right")
       .row.g-0.align-items-stretch.mb-0
         .col-lg-7.d-flex.flex-column.justify-content-center.p-4.p-lg-5
           .bg8.p-2.mb-4
@@ -531,12 +503,12 @@
     #t_1_7.titulo-segundo.mb-5
       h2 1.7 #[em Merchandising] en el punto de venta
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+      .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/tema1/33.png')
       .col-lg-7
         .row.justify-content-center.mb-4
-          .col-lg-2
+          .col-lg-2.d-none.d-lg-block
             img.img-t(src='@/assets/curso/tema1/24.svg')
           .col-lg-10.ps-lg-0
             p.mb-0 El #[em merchandising] comprende el conjunto de técnicas y acciones comerciales orientadas a organizar, presentar y destacar los productos en el punto de venta, con el propósito de facilitar su identificación, mejorar la experiencia de compra y contribuir al cumplimiento de los objetivos comerciales de la organización.
@@ -592,7 +564,46 @@
 export default {
   name: 'Tema1',
   data: () => ({
-    // variables de vue
+    datosSlyder: [
+      {
+        titulo: 'Ejemplo de aplicación',
+        texto: `
+          <p class="mb-4">Una persona solicita un computador para desarrollar actividades académicas. En lugar de recomendar inmediatamente el equipo de mayor precio, el asesor comercial formula preguntas como las siguientes:</p>
+          <ul class="lista-ul mb-0">
+            <li class="d-flex mb-2">
+              <i class="fas fa-user"></i>
+              <p class="mb-0">¿Qué programas o aplicaciones necesita utilizar?</p>
+            </li>
+            <li class="d-flex mb-2">
+              <i class="fas fa-user"></i>
+              <p class="mb-0">¿Cuál es el presupuesto disponible?</p>
+            </li>
+            <li class="d-flex mb-0">
+              <i class="fas fa-user"></i>
+              <p class="mb-0">¿Requiere transportar frecuentemente el equipo?</p>
+            </li>
+          </ul>
+        `,
+        imagen: '@/assets/curso/tema1/36.png',
+      },
+      {
+        titulo: '',
+        texto: `
+          <ul class="lista-ul mb-0">
+            <li class="d-flex mb-2">
+              <i class="fas fa-user"></i>
+              <p class="mb-0">¿Qué actividades académicas realizará principalmente?</p>
+            </li>
+            <li class="d-flex mb-0">
+              <i class="fas fa-user"></i>
+              <p class="mb-0">¿Necesita características específicas de almacenamiento, memoria o procesamiento?</p>
+            </li>
+          </ul>
+          <p class="mt-4 mb-0">A partir de las respuestas, el asesor analiza las alternativas disponibles y recomienda un computador que responda a las necesidades académicas y económicas del cliente. Asimismo, explica sus características técnicas, condiciones de garantía y posibilidades de soporte.</p>
+        `,
+        imagen: '@/assets/curso/tema1/37.png',
+      },
+    ],
   }),
 }
 </script>
